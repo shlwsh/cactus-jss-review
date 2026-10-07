@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-07T13:41:06Z",
+  "version": "1.40",
+  "status": "PASS",
+  "release_url": "https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-review-v1.40",
+  "archived_tag_commit": "11a1601fd1bd14a6c40d75a49fd1edd5fea5b386",
+  "concept_doi": "10.5281/zenodo.23205936",
+  "exact_version_doi": "10.5281/zenodo.23213922",
+  "zenodo_record_url": "https://zenodo.org/records/23213922",
+  "public_download": {
+    "authentication": "none",
+    "assets_verified": 6,
+    "sha256_matches_local": true
+  },
+  "browser_access": {
+    "browser": "Google Chrome headless",
+    "fresh_profiles": true,
+    "logged_in": false,
+    "github": "PASS",
+    "zenodo": "PASS"
+  },
+  "fresh_environment": {
+    "status": "PASS",
+    "scope": "actual public download; new virtualenv on same Windows host; offline locked wheelhouse",
+    "comparison": {
+      "value_display_pairs": 379,
+      "mapped_occurrences": 178,
+      "tex_artifacts": 7,
+      "png_artifacts": 6,
+      "png_byte_differences": [],
+      "manuscript_normalized_text_sha256": "32401ff8fc9ac131bd86f251399cfcff39f3027971c5d0c8d92f4483bf5cb218"
+    }
+  },
+  "zenodo_archive": {
+    "outer_sha256": "f7661190c302e677e9d2f5e696132263c8ff44bc7a19e1d04f80feadfbb96e34",
+    "declared_md5_verified": true,
+    "primary_assets_verified": 4
+  },
+  "primary_assets": [
+    {
+      "name": "cactus-jss-review-v1.40-20261007T122600Z.zip",
+      "bytes": 3773098,
+      "sha256": "8cb3b0c92e2059f3f7e966a62e300307454efc921a4e3afae5a9c2ca90db6158"
+    },
+    {
+      "name": "CACTUS_JSS_v1.40_20261007-122341.pdf",
+      "bytes": 618168,
+      "sha256": "ac0e390af3254870b8bd5f2c1452bb285b68c9c9104c4e4369ec96420989db5f"
+    },
+    {
+      "name": "jss-flat-upload-v1.40-20261007T122600Z.zip",
+      "bytes": 228817,
+      "sha256": "9e281a29d0936227620a694901d38da939f9973d9d37f5fac33457f2687e677d"
+    },
+    {
+      "name": "cactus-evidence-corrected-20261007T123009Z.zip",
+      "bytes": 8566140,
+      "sha256": "95c7084797bc6dff7bc120d48572674d52f04e1bd67cb729a04b0369a0ebb504"
+    }
+  ],
+  "submission_ready": false,
+  "author_declarations": "pending; publication does not assert final author approval"
+}

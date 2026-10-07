@@ -50,8 +50,10 @@ approval must be completed before journal submission.
 The [concept DOI](https://doi.org/10.5281/zenodo.23205936) identifies the artifact series.
 The [v1.39 exact DOI](https://doi.org/10.5281/zenodo.23207699) identifies the previous
 version. Neither is the exact identifier for these v1.40 bytes.
-The current exact DOI will be recorded only after the new Zenodo archive contents
-have been downloaded and matched to all four hashes.
+The verified [v1.40 exact DOI](https://doi.org/10.5281/zenodo.23213922) identifies
+the archive of frozen tag commit `11a1601fd1bd14a6c40d75a49fd1edd5fea5b386`. All four current asset hashes
+match the archive contents. `PUBLIC_VERIFICATION.json` records the public download,
+logged-out browser access, and fresh-environment reproduction.
 
 The repository is public and identifies the authors. CACTUS-origin material retains
 CC BY 4.0; third-party styles retain their notices. Third-party full-text cited PDFs
