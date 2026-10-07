@@ -1,7 +1,8 @@
 # CACTUS JSS Review Artifact
 
-**Paper Version:** CACTUS JSS v1.37 (Review Candidate)  
-**Generated:** 2026-10-07
+**Paper Version:** CACTUS JSS v1.38 (Review Candidate)  
+**Generated:** 2026-10-07  
+**DOI:** https://doi.org/10.5281/zenodo.23205937
 
 ## Artifact Contents
 
@@ -9,7 +10,7 @@ This artifact contains the complete review package for the CACTUS paper submitte
 
 ### Included Components
 
-- `cactus-jss-review-v1.36-20261007T052400Z.zip`: Complete review artifact (see internal README)
+- `cactus-evidence-corrected-20261007T074054Z.zip`: Complete review artifact with updated DOI (see internal README)
 
 ### Reproducibility
 
