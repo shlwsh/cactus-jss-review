@@ -1,22 +1,30 @@
 {
-  "generated_at": "2026-10-07T08:41:31Z",
-  "version": "1.39",
-  "scope": "review access and regeneration, author declarations pending",
-  "assets": [
+  "schema_version": "1.0",
+  "generated_at": "2026-10-07T13:30:23Z",
+  "version": "1.40",
+  "release_url": "https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-review-v1.40",
+  "artifacts": [
     {
-      "filename": "CACTUS_JSS_v1.39_20261007-083930.pdf",
-      "sha256": "7b71fd195765bab0498ba24b32ebcbbd137a6c48b30e23cfd2bf9afd21a16e9d",
-      "bytes": 614428
+      "name": "cactus-jss-review-v1.40-20261007T122600Z.zip",
+      "bytes": 3773098,
+      "sha256": "8cb3b0c92e2059f3f7e966a62e300307454efc921a4e3afae5a9c2ca90db6158"
     },
     {
-      "filename": "cactus-jss-review-v1.39-20261007T083709Z.zip",
-      "sha256": "eda2d5b2326b42f2d4e1404b77a9026463e710ffaf3f99579a1556a48ab06622",
-      "bytes": 3762690
+      "name": "CACTUS_JSS_v1.40_20261007-122341.pdf",
+      "bytes": 618168,
+      "sha256": "ac0e390af3254870b8bd5f2c1452bb285b68c9c9104c4e4369ec96420989db5f"
     },
     {
-      "filename": "jss-flat-upload-v1.39-20261007T084003Z.zip",
-      "sha256": "ebdcd7fbcb0140a73611da60daa37070b4f0093239d5be2e5d4f12e486fc4bc0",
-      "bytes": 226472
+      "name": "jss-flat-upload-v1.40-20261007T122600Z.zip",
+      "bytes": 228817,
+      "sha256": "9e281a29d0936227620a694901d38da939f9973d9d37f5fac33457f2687e677d"
+    },
+    {
+      "name": "cactus-evidence-corrected-20261007T123009Z.zip",
+      "bytes": 8566140,
+      "sha256": "95c7084797bc6dff7bc120d48572674d52f04e1bd67cb729a04b0369a0ebb504"
     }
-  ]
+  ],
+  "paper_status": "author declarations and final submission approval pending",
+  "reproduction_scope": "paper projections and fresh synthetic admission; not original archive replay"
 }
