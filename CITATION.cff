@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this versioned CACTUS review artifact."
+title: "CACTUS JSS review artifact"
+version: "1.39"
+doi: "10.5281/zenodo.23205936"
+url: "https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-review-v1.39"
+license: CC-BY-4.0
+authors:
+  - family-names: Zhao
+    given-names: Daping
+  - family-names: Shi
+    given-names: Honglei

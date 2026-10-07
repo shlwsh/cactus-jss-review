@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-10-07T08:41:31Z",
+  "version": "1.39",
+  "scope": "review access and regeneration, author declarations pending",
+  "assets": [
+    {
+      "filename": "CACTUS_JSS_v1.39_20261007-083930.pdf",
+      "sha256": "7b71fd195765bab0498ba24b32ebcbbd137a6c48b30e23cfd2bf9afd21a16e9d",
+      "bytes": 614428
+    },
+    {
+      "filename": "cactus-jss-review-v1.39-20261007T083709Z.zip",
+      "sha256": "eda2d5b2326b42f2d4e1404b77a9026463e710ffaf3f99579a1556a48ab06622",
+      "bytes": 3762690
+    },
+    {
+      "filename": "jss-flat-upload-v1.39-20261007T084003Z.zip",
+      "sha256": "ebdcd7fbcb0140a73611da60daa37070b4f0093239d5be2e5d4f12e486fc4bc0",
+      "bytes": 226472
+    }
+  ]
+}
