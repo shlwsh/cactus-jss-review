@@ -22,7 +22,11 @@ results are unchanged. Original RUN replay, independent original-archive
 re-admission, and external artifact evaluation are not certified. Whole
 historical archive integrity remains FAIL. Public access does not assert anonymity.
 
-The series DOI is https://doi.org/10.5281/zenodo.23205936. The exact new manuscript
-archive DOI and public checks will be recorded after the actual archive is verified.
+The series DOI is https://doi.org/10.5281/zenodo.23205936. The exact v1.45 manuscript archive DOI is https://doi.org/10.5281/zenodo.23227339.
+Six anonymous release downloads, four Zenodo inner primary assets, fresh-virtualenv
+research-artifact reproduction, and current-source compilation passed.
+PUBLIC_VERIFICATION.json records exact file bindings and separate reproduction scopes.
+The archived tag retains preparation-time metadata; this main-branch update records
+subsequent verification without changing frozen files.
 CACTUS-origin material retains CC BY 4.0; third parties retain their own notices.
 Third-party cited full-text PDFs are omitted. No new model/evaluator experiment ran.

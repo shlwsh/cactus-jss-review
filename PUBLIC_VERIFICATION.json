@@ -1,67 +1,190 @@
 {
-  "generated_at": "2026-10-08T01:49:41Z",
+  "generated_at": "2026-10-08T02:40:45Z",
   "status": "PASS",
   "public_access_verified": true,
-  "version": "1.43",
-  "version_doi": "10.5281/zenodo.23226778",
+  "version": "1.45",
+  "role": "manuscript publication plus unchanged separately versioned research dependency",
+  "version_doi": "10.5281/zenodo.23227339",
   "concept_doi": "10.5281/zenodo.23205936",
-  "release_url": "https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-review-v1.43",
-  "frozen_tag_commit": "380b7886b3bf5c683f2ed8bcf81fc6f3d6503d2e",
+  "release_url": "https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-manuscript-v1.45",
+  "frozen_tag_commit": "4bd3f8ca119e9447a6b0bc702188aa2a4f831b37",
   "bindings": {
     "manuscript_pdf": {
-      "path": "pdf/CACTUS_JSS_v1.43_20261008-011509.pdf",
-      "sha256": "03fcd1a7061e71661ac1ca7219ee84e6cd99672ba2567ea5c119a945af935f25"
+      "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/public_downloads/CACTUS_JSS_v1.45_20261008-022658.pdf",
+      "sha256": "411cf17d97fcaf8309638aef5f4294f1dda0f9bbf1c8948eb28ac4ccc63b0516"
     },
     "review_zip": {
-      "path": "docs/jss/v1.0_20261008-014319_v143公开发行与论文链接修订证据/public_downloads/cactus-jss-review-v1.43-20261008T010442Z.zip",
+      "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/public_downloads/cactus-jss-review-v1.43-20261008T010442Z.zip",
       "sha256": "6d3e31c3a4b35f79e95e543e0d8c447be4aab8d9538ab23499ea3c7e4fed0b36"
     }
   },
+  "research_dependency": {
+    "artifact_version": "1.43",
+    "version_doi": "10.5281/zenodo.23226778",
+    "scope": "research ZIP regenerates its own v1.43 manuscript baseline; current v1.45 source independently compiles current v1.45 PDF"
+  },
   "fresh_environment": {
     "status": "PASS",
-    "scope": "publicly downloaded release; fresh virtualenv on the same Windows host; offline locked wheels",
+    "scope": "Same Windows host, new virtualenv, offline locked wheels; actual public v1.45 download and unchanged v1.43 research dependency",
     "logs": [
       {
-        "path": "docs/jss/v1.0_20261008-014319_v143公开发行与论文链接修订证据/public_freshenv_install.log",
-        "sha256": "4133c6e35b3c328f817c7d6b35c0ecd4ce00098064e6b0820a1094ce44b7a4a9"
+        "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/v145_freshenv_install.log",
+        "sha256": "fe6c06fb372ff6d082e07553cd9a6d7994f849c75a84ee8f4e05e3f808fcbb97"
       },
       {
-        "path": "docs/jss/v1.0_20261008-014319_v143公开发行与论文链接修订证据/public_freshenv_reproduce.log",
-        "sha256": "dced13c4cef26dd1d4d601b37a0145b6ed7deaa7c2c955728b62a6c90272b7b8"
+        "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/v145_freshenv_reproduce.log",
+        "sha256": "dd3bcc4f77a0c67977386422fc32e9e8b84218031f6771c447a464ed1f8fbacc"
+      },
+      {
+        "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/v145_public_flat_compile_0.log",
+        "sha256": "b9dbbff1de50189e5f3f5274b1fd1ee8425fef2848b8206ea100a77a4c01545c"
+      },
+      {
+        "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/v145_public_flat_compile_1.log",
+        "sha256": "6cf7485aea85a0c53419334a5e60ef80f62174c09bca6c7605657e9fa21070e7"
+      },
+      {
+        "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/v145_public_flat_compile_2.log",
+        "sha256": "7958eb14a09cd111249a119c45805da78db9d663d9c178ac5d0915e263a7ae3b"
+      },
+      {
+        "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/v145_public_flat_compile_3.log",
+        "sha256": "534be594630a0137d3debe0096e8b5ad306b4c8e937cde52604e7ef29bdeba8b"
       }
     ],
     "result": {
-      "path": "docs/jss/v1.0_20261008-014319_v143公开发行与论文链接修订证据/public_reproduction_result.json",
-      "sha256": "c0a748444dfd4e7f7e284fb24d1c02520c27a5ea93ebb493297408effe0a6cbd"
+      "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/v145_fresh_environment_verification.json",
+      "sha256": "89d3abe414d96442b04aa609427bddfa541b4c0e7940826633db304168b688b1"
     }
   },
   "zenodo": {
+    "generated_at": "2026-10-08T02:36:46Z",
     "status": "PASS",
-    "record_id": 23226778,
-    "archive": {
-      "url": "https://zenodo.org/api/records/23226778/files/shlwsh/cactus-jss-review-cactus-jss-review-v1.43.zip/content",
+    "record_id": 23227339,
+    "version": "cactus-jss-manuscript-v1.45",
+    "doi": "10.5281/zenodo.23227339",
+    "concept_doi": "10.5281/zenodo.23205936",
+    "record_capture": {
+      "url": "https://zenodo.org/api/records/23227339",
       "status": 200,
       "authentication": "none",
-      "retrieved_at": "2026-10-08T01:48:24Z",
-      "path": "docs/jss/v1.0_20261008-014319_v143公开发行与论文链接修订证据/zenodo_v143_archive_20261008T014746Z.zip",
-      "bytes": 29859300,
-      "sha256": "8988995a8d63d865ee268299aa8440bfb7bfbc9d02a73b70e5b9d4b4fa42c412"
+      "retrieved_at": "2026-10-08T02:36:22Z",
+      "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/zenodo_record_20261008T023621Z.json",
+      "bytes": 5276,
+      "sha256": "5e7b253e8c5cae9e1c4b5b5601c694f3dff7ac4c9533aa2aef1ac6c3c6251ae9"
     },
+    "archive_capture": {
+      "url": "https://zenodo.org/api/records/23227339/files/shlwsh/cactus-jss-review-cactus-jss-manuscript-v1.45.zip/content",
+      "status": 200,
+      "authentication": "none",
+      "retrieved_at": "2026-10-08T02:36:46Z",
+      "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/zenodo_v145_archive_20261008T023621Z.zip",
+      "bytes": 31069245,
+      "sha256": "0f3e5352d418b6ef95837b65f3aaa693e17688900e6063802fbe1140b8f3f7c1"
+    },
+    "declared_md5_verified": true,
     "inner_assets": [
       {
-        "name": "shlwsh-cactus-jss-review-380b788/cactus-jss-review-v1.43-20261008T010442Z.zip",
+        "name": "shlwsh-cactus-jss-review-4bd3f8c/CACTUS_JSS_v1.45_20261008-022658.pdf",
+        "sha256": "411cf17d97fcaf8309638aef5f4294f1dda0f9bbf1c8948eb28ac4ccc63b0516"
+      },
+      {
+        "name": "shlwsh-cactus-jss-review-4bd3f8c/jss-flat-upload-v1.45-20261008T022800Z.zip",
+        "sha256": "c9c319bb3f78cdd38d3fc11ab7e3671d5ac77f146820f2088bb3362b1c7a2ad7"
+      },
+      {
+        "name": "shlwsh-cactus-jss-review-4bd3f8c/jss-submission-materials-v1.45-20261008T023600Z.zip",
+        "sha256": "547cf8e8cefee92bc0c3f232a6c450d46fa3cb2955e065882abf8c9218be94d2"
+      },
+      {
+        "name": "shlwsh-cactus-jss-review-4bd3f8c/cactus-jss-review-v1.43-20261008T010442Z.zip",
         "sha256": "6d3e31c3a4b35f79e95e543e0d8c447be4aab8d9538ab23499ea3c7e4fed0b36"
+      }
+    ],
+    "scope": "archive byte identity; not author submission approval"
+  },
+  "github": {
+    "generated_at": "2026-10-08T02:36:21Z",
+    "status": "PASS",
+    "release_url": "https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-manuscript-v1.45",
+    "assets_verified": 6,
+    "captures": [
+      {
+        "url": "https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-manuscript-v1.45",
+        "status": 200,
+        "authentication": "none",
+        "retrieved_at": "2026-10-08T02:36:16Z",
+        "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/public_downloads/release_page.html",
+        "bytes": 193295,
+        "sha256": "18c22a58531c2b03d35430bfa366f379f17ee4324ab6cb4cb9ab01b4d8cb0065"
       },
       {
-        "name": "shlwsh-cactus-jss-review-380b788/CACTUS_JSS_v1.43_20261008-011509.pdf",
-        "sha256": "03fcd1a7061e71661ac1ca7219ee84e6cd99672ba2567ea5c119a945af935f25"
+        "url": "https://github.com/shlwsh/cactus-jss-review/releases/download/cactus-jss-manuscript-v1.45/cactus-jss-review-v1.43-20261008T010442Z.zip",
+        "status": 200,
+        "authentication": "none",
+        "retrieved_at": "2026-10-08T02:36:17Z",
+        "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/public_downloads/cactus-jss-review-v1.43-20261008T010442Z.zip",
+        "bytes": 3774222,
+        "sha256": "6d3e31c3a4b35f79e95e543e0d8c447be4aab8d9538ab23499ea3c7e4fed0b36",
+        "hash_verified": true,
+        "name": "cactus-jss-review-v1.43-20261008T010442Z.zip"
       },
       {
-        "name": "shlwsh-cactus-jss-review-380b788/jss-flat-upload-v1.43-20261008T010442Z.zip",
-        "sha256": "a5a9f9e5b867236b1b458fbf1a0a3461e3c6e5b5db06b4c05d6b3293dd0021f0"
+        "url": "https://github.com/shlwsh/cactus-jss-review/releases/download/cactus-jss-manuscript-v1.45/CACTUS_JSS_v1.45_20261008-022658.pdf",
+        "status": 200,
+        "authentication": "none",
+        "retrieved_at": "2026-10-08T02:36:18Z",
+        "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/public_downloads/CACTUS_JSS_v1.45_20261008-022658.pdf",
+        "bytes": 624635,
+        "sha256": "411cf17d97fcaf8309638aef5f4294f1dda0f9bbf1c8948eb28ac4ccc63b0516",
+        "hash_verified": true,
+        "name": "CACTUS_JSS_v1.45_20261008-022658.pdf"
+      },
+      {
+        "url": "https://github.com/shlwsh/cactus-jss-review/releases/download/cactus-jss-manuscript-v1.45/jss-flat-upload-v1.45-20261008T022800Z.zip",
+        "status": 200,
+        "authentication": "none",
+        "retrieved_at": "2026-10-08T02:36:19Z",
+        "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/public_downloads/jss-flat-upload-v1.45-20261008T022800Z.zip",
+        "bytes": 229485,
+        "sha256": "c9c319bb3f78cdd38d3fc11ab7e3671d5ac77f146820f2088bb3362b1c7a2ad7",
+        "hash_verified": true,
+        "name": "jss-flat-upload-v1.45-20261008T022800Z.zip"
+      },
+      {
+        "url": "https://github.com/shlwsh/cactus-jss-review/releases/download/cactus-jss-manuscript-v1.45/jss-submission-materials-v1.45-20261008T023600Z.zip",
+        "status": 200,
+        "authentication": "none",
+        "retrieved_at": "2026-10-08T02:36:19Z",
+        "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/public_downloads/jss-submission-materials-v1.45-20261008T023600Z.zip",
+        "bytes": 368337,
+        "sha256": "547cf8e8cefee92bc0c3f232a6c450d46fa3cb2955e065882abf8c9218be94d2",
+        "hash_verified": true,
+        "name": "jss-submission-materials-v1.45-20261008T023600Z.zip"
+      },
+      {
+        "url": "https://github.com/shlwsh/cactus-jss-review/releases/download/cactus-jss-manuscript-v1.45/RELEASE_ASSETS.json",
+        "status": 200,
+        "authentication": "none",
+        "retrieved_at": "2026-10-08T02:36:20Z",
+        "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/public_downloads/RELEASE_ASSETS.json",
+        "bytes": 1868,
+        "sha256": "7f1b5729b0d6dbdc2ddad6da7a8b7100fcb75a1f890e37b4706728589f08f1d6",
+        "hash_verified": true,
+        "name": "RELEASE_ASSETS.json"
+      },
+      {
+        "url": "https://github.com/shlwsh/cactus-jss-review/releases/download/cactus-jss-manuscript-v1.45/SHA256SUMS",
+        "status": 200,
+        "authentication": "none",
+        "retrieved_at": "2026-10-08T02:36:21Z",
+        "path": "docs/jss/v1.0_20261008-021208_v143\u5b8c\u6574\u6295\u7a3f\u6574\u6539\u8bc1\u636e/public_downloads/SHA256SUMS",
+        "bytes": 445,
+        "sha256": "f8e703356cb856ffc6a8c652039056e7cb0bedde8fd0ed144bcffbdcb4ed817c",
+        "hash_verified": true,
+        "name": "SHA256SUMS"
       }
     ]
   },
-  "scope": "Immutable v1.43 downloads and reproduction; does not bind the subsequent v1.44 manuscript or certify original RUN replay",
-  "submission_ready": false
+  "author_approval": "not asserted"
 }
