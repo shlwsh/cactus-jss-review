@@ -1,60 +1,29 @@
-# CACTUS JSS review artifact v1.40
+# CACTUS JSS review artifact v1.43
 
-Published files preserve the validated 36-page v1.40 submission candidate byte for byte.
-The independent review ZIP is **cactus-jss-review-v1.40-20261007T122600Z.zip**, SHA-256 **8cb3b0c92e2059f3f7e966a62e300307454efc921a4e3afae5a9c2ca90db6158**.
-Download the files from the [v1.40 release](https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-review-v1.40).
-`RELEASE_ASSETS.json` and `SHA256SUMS` identify this version's four primary assets.
-Older packages and releases remain preserved.
+The three current immutable assets are identified by RELEASE_ASSETS.json and SHA256SUMS.
+Download them from the [v1.43 Release](https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-review-v1.43). Older files and tags remain available.
 
-## Reproduce the review package
+The primary review ZIP is cactus-jss-review-v1.43-20261008T010442Z.zip. Its SHA-256 is 6d3e31c3a4b35f79e95e543e0d8c447be4aab8d9538ab23499ea3c7e4fed0b36.
+Extract it, install environment/requirements-lock.txt in a separate Python environment,
+and run python scripts/reproduce_review_artifact.py all with TeX and Poppler on PATH.
 
-Extract the independent review ZIP and run:
+The package regenerates 379 value/display pairs, 185 manuscript mappings, 7 TeX artifacts,
+6 PNGs and the normalized 36-page v1.43 manuscript. New synthetic fixtures exercise the
+unchanged production core (160 semantic rejections, 20 admitted controls). Recorded
+near-valid projections preserve 40 admissions. These are bounded validation observations,
+not population detection guarantees or benchmark-wide repair-effectiveness estimates.
 
-```sh
-python -m venv .venv
-# Activate the virtual environment for your operating system.
-python -m pip install -r environment/requirements-lock.txt
-python scripts/reproduce_review_artifact.py all
-```
+Original observed RUNs, source history, independent authorizations and billing identities
+are omitted. Full model/evaluator replay and independent original-archive re-admission
+are not certified. The package's frozen manuscript preserves preparation-time local
+candidate/DOI-pending annotations. Subsequent public verification and the exact archived
+version DOI will be recorded in Release notes and PUBLIC_VERIFICATION.json after checking.
 
-Python, TeX with pdflatex/BibTeX and the listed dependencies, and Poppler
-with pdfinfo/pdftotext are required. The Python lock does not freeze the OS or fonts.
-See README.md, environment notes, and RELEASE_MANIFEST.json inside the ZIP.
+The series DOI is https://doi.org/10.5281/zenodo.23205936. The prior v1.40 DOI
+https://doi.org/10.5281/zenodo.23213922 identifies v1.40 only. Neither identifies the
+immutable v1.43 assets. The repository is public; anonymity is not asserted.
 
-The validated package compares 379 value/display pairs, 178 manuscript mappings,
-7 generated TeX artifacts, 6 PNGs, and normalized 36-page manuscript text.
-New synthetic fixtures exercise the unchanged production admission core
-(TP160/FN0/FP0/TN20). Recorded near-valid projections retain 40 admissions.
-The new seed summary requires full within-seed operator coverage; both rows are 20/20.
-Appendix C lists the actual overlapping semantic reasons from retained decisions.
-These observations are not independent population samples or repair-effectiveness estimates.
-
-Original observed RUNs, source history, independent authorization records and billing
-identities are omitted. The package does not certify full original-archive re-admission,
-model/evaluator replay, or independent external artifact evaluation.
-The rehearsal uses a fresh virtual environment on the same Windows host.
-Whole-archive integrity remains FAIL; full project tests timed out.
-
-## Files and publication status
-
-The independent review ZIP supports reproducibility. The flat-upload ZIP is the
-isolated-compiled Editorial Manager source. The evidence-corrected ZIP preserves
-the local publication source tree and is not the flat upload package.
-The PDF and embedded release metadata retain the truthful preparation-time status:
-the package was a local candidate and no current exact DOI had been verified yet.
-Current public availability and subsequent archival verification are recorded in the
-GitHub release notes; they do not imply approval of pending author declarations.
-Postal details, funding/competing interests, CRediT, AI human review and final author
-approval must be completed before journal submission.
-
-The [concept DOI](https://doi.org/10.5281/zenodo.23205936) identifies the artifact series.
-The [v1.39 exact DOI](https://doi.org/10.5281/zenodo.23207699) identifies the previous
-version. Neither is the exact identifier for these v1.40 bytes.
-The verified [v1.40 exact DOI](https://doi.org/10.5281/zenodo.23213922) identifies
-the archive of frozen tag commit `11a1601fd1bd14a6c40d75a49fd1edd5fea5b386`. All four current asset hashes
-match the archive contents. `PUBLIC_VERIFICATION.json` records the public download,
-logged-out browser access, and fresh-environment reproduction.
-
-The repository is public and identifies the authors. CACTUS-origin material retains
-CC BY 4.0; third-party styles retain their notices. Third-party full-text cited PDFs
-are omitted. Public access does not constitute an independent artifact evaluation.
+Provided author information and declarations are applied. Remaining author facts and
+approval of final manuscript bytes are independent of public release verification.
+CACTUS-origin material retains CC BY 4.0. Third-party styles keep their notices;
+third-party cited full-text PDFs are omitted. No new model/evaluator experiment occurred.
