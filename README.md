@@ -1,5 +1,9 @@
 # CACTUS JSS review artifact v1.43
 
+The authors subsequently clarified internal university expense support and AI
+uses. See [the funding and AI disclosure correction](FUNDING_CORRECTION.md).
+The later v1.45 manuscript applies those corrections; archived bytes are unchanged.
+
 The three current immutable assets are identified by RELEASE_ASSETS.json and SHA256SUMS.
 Download them from the [v1.43 Release](https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-review-v1.43). Older files and tags remain available.
 
