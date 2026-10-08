@@ -1,30 +1,40 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-08T01:44:56Z",
-  "version": "1.43",
-  "release_url": "https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-review-v1.43",
+  "generated_at": "2026-10-08T02:34:57Z",
+  "version": "1.45",
+  "role": "revised manuscript submission release with a separately versioned research dependency",
+  "release_url": "https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-manuscript-v1.45",
+  "research_artifact_version": "1.43",
+  "research_artifact_doi": "10.5281/zenodo.23226778",
+  "concept_doi": "10.5281/zenodo.23205936",
+  "version_doi": null,
   "artifacts": [
+    {
+      "name": "CACTUS_JSS_v1.45_20261008-022658.pdf",
+      "bytes": 624635,
+      "sha256": "411cf17d97fcaf8309638aef5f4294f1dda0f9bbf1c8948eb28ac4ccc63b0516",
+      "source_path": "pdf/CACTUS_JSS_v1.45_20261008-022658.pdf"
+    },
+    {
+      "name": "jss-flat-upload-v1.45-20261008T022800Z.zip",
+      "bytes": 229485,
+      "sha256": "c9c319bb3f78cdd38d3fc11ab7e3671d5ac77f146820f2088bb3362b1c7a2ad7",
+      "source_path": "paper/dist/jss-flat-upload-v1.45-20261008T022800Z.zip"
+    },
+    {
+      "name": "jss-submission-materials-v1.45-20261008T023600Z.zip",
+      "bytes": 368337,
+      "sha256": "547cf8e8cefee92bc0c3f232a6c450d46fa3cb2955e065882abf8c9218be94d2",
+      "source_path": "paper/dist/jss-submission-materials-v1.45-20261008T023600Z.zip"
+    },
     {
       "name": "cactus-jss-review-v1.43-20261008T010442Z.zip",
       "bytes": 3774222,
       "sha256": "6d3e31c3a4b35f79e95e543e0d8c447be4aab8d9538ab23499ea3c7e4fed0b36",
-      "source_path": "paper/dist/cactus-jss-review-v1.43-20261008T010442Z.zip"
-    },
-    {
-      "name": "CACTUS_JSS_v1.43_20261008-011509.pdf",
-      "bytes": 627341,
-      "sha256": "03fcd1a7061e71661ac1ca7219ee84e6cd99672ba2567ea5c119a945af935f25",
-      "source_path": "pdf/CACTUS_JSS_v1.43_20261008-011509.pdf"
-    },
-    {
-      "name": "jss-flat-upload-v1.43-20261008T010442Z.zip",
-      "bytes": 229092,
-      "sha256": "a5a9f9e5b867236b1b458fbf1a0a3461e3c6e5b5db06b4c05d6b3293dd0021f0",
-      "source_path": "paper/dist/jss-flat-upload-v1.43-20261008T010442Z.zip"
+      "source_path": "docs/jss/v1.0_20261008-014319_v143\u516c\u5f00\u53d1\u884c\u4e0e\u8bba\u6587\u94fe\u63a5\u4fee\u8ba2\u8bc1\u636e/public_downloads/cactus-jss-review-v1.43-20261008T010442Z.zip"
     }
   ],
-  "scope": "paper regeneration for archived v1.43 and synthetic admission regression; original RUN archive and full replay omitted",
-  "preparation_status": "Some frozen preparation-time metadata states local candidate/DOI pending; subsequent verification is recorded separately.",
-  "author_status": "Provided author facts and declarations are applied; final manuscript approval and remaining author facts are separate.",
-  "license": "CC-BY-4.0 for CACTUS-origin material; third parties retain notices"
+  "author_approval": "actual final source/PDF approval not asserted",
+  "submission_ready": false,
+  "scientific_values": "378 unchanged value/display pairs; paper_version is the only changed pair"
 }

@@ -1,36 +1,28 @@
-# CACTUS JSS review artifact v1.43
+# CACTUS JSS revised manuscript release v1.45
 
-The authors subsequently clarified internal university expense support and AI
-uses. See [the funding and AI disclosure correction](FUNDING_CORRECTION.md).
-The later v1.45 manuscript applies those corrections; archived bytes are unchanged.
+This release freezes the corrected manuscript PDF, independently compiled flat
+source ZIP, and submission attachments. The [v1.45 Release](https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-manuscript-v1.45) and
+RELEASE_ASSETS.json identify the exact files. Author approval of the actual final
+source and PDF is still recorded separately; public release is not journal submission.
 
-The three current immutable assets are identified by RELEASE_ASSETS.json and SHA256SUMS.
-Download them from the [v1.43 Release](https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-review-v1.43). Older files and tags remain available.
+Research artifact v1.43 is a separately versioned dependency, archived at
+https://doi.org/10.5281/zenodo.23226778. Its ZIP is retained byte-for-byte here
+for access. It regenerates its own baseline, synthetic production-core checks,
+and fixed scientific values. The revised source ZIP compiles the enclosed v1.45
+PDF. Do not treat the v1.43 DOI as the v1.45 manuscript version identifier.
 
-The primary review ZIP is cactus-jss-review-v1.43-20261008T010442Z.zip. Its SHA-256 is 6d3e31c3a4b35f79e95e543e0d8c447be4aab8d9538ab23499ea3c7e4fed0b36.
-Extract it, install environment/requirements-lock.txt in a separate Python environment,
-and run python scripts/reproduce_review_artifact.py all with TeX and Poppler on PATH.
+Funding and AI clarification is recorded in FUNDING_CORRECTION.md. Research
+expenses were covered by Taiyuan University of Technology internal project
+resources, with no third-party funding or grant identifier. The university had
+no role in study design, analysis, or the submission decision. Figures were
+code-rendered; ChatGPT, OpenAI Codex, and Cursor AI-assisted features are disclosed.
 
-The package regenerates 379 value/display pairs, 185 manuscript mappings, 7 TeX artifacts,
-6 PNGs and the normalized 36-page v1.43 manuscript. New synthetic fixtures exercise the
-unchanged production core (160 semantic rejections, 20 admitted controls). Recorded
-near-valid projections preserve 40 admissions. These are bounded validation observations,
-not population detection guarantees or benchmark-wide repair-effectiveness estimates.
+All scientific values, denominators, latency observations, and statistical
+results are unchanged. Original RUN replay, independent original-archive
+re-admission, and external artifact evaluation are not certified. Whole
+historical archive integrity remains FAIL. Public access does not assert anonymity.
 
-Original observed RUNs, source history, independent authorizations and billing identities
-are omitted. Full model/evaluator replay and independent original-archive re-admission
-are not certified. The package's frozen manuscript preserves preparation-time local
-candidate/DOI-pending annotations. The exact v1.43 DOI is https://doi.org/10.5281/zenodo.23226778.
-Anonymous downloads, Zenodo inner assets and a new same-host locked virtualenv
-reproduction passed. PUBLIC_VERIFICATION.json records their bindings.
-The immutable archived tag retains the earlier preparation metadata; these
-verification facts are a later main-branch documentation update.
-
-The series DOI is https://doi.org/10.5281/zenodo.23205936. The prior v1.40 DOI
-https://doi.org/10.5281/zenodo.23213922 identifies v1.40 only. Neither identifies the
-immutable v1.43 assets. The repository is public; anonymity is not asserted.
-
-Provided author information and declarations are applied. Remaining author facts and
-approval of final manuscript bytes are independent of public release verification.
-CACTUS-origin material retains CC BY 4.0. Third-party styles keep their notices;
-third-party cited full-text PDFs are omitted. No new model/evaluator experiment occurred.
+The series DOI is https://doi.org/10.5281/zenodo.23205936. The exact new manuscript
+archive DOI and public checks will be recorded after the actual archive is verified.
+CACTUS-origin material retains CC BY 4.0; third parties retain their own notices.
+Third-party cited full-text PDFs are omitted. No new model/evaluator experiment ran.

@@ -1,10 +1,8 @@
 cff-version: 1.2.0
-message: "Please cite this exact archived v1.43 version."
-title: "CACTUS JSS review artifact"
-version: "1.43"
-doi: "10.5281/zenodo.23226778"
-# Artifact series concept DOI: 10.5281/zenodo.23205936
-url: "https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-review-v1.43"
+message: "Use the exact manuscript DOI after publication; the research artifact has its own DOI."
+title: "CACTUS JSS revised manuscript and submission assets"
+version: "1.45"
+url: "https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-manuscript-v1.45"
 license: CC-BY-4.0
 authors:
   - family-names: Zhao
