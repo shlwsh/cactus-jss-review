@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "Please cite the exact archived version when released."
+message: "Please cite this exact archived v1.43 version."
 title: "CACTUS JSS review artifact"
 version: "1.43"
-# Exact version DOI pending; local candidate only.
+doi: "10.5281/zenodo.23226778"
 # Artifact series concept DOI: 10.5281/zenodo.23205936
 url: "https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-review-v1.43"
 license: CC-BY-4.0

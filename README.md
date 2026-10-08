@@ -16,8 +16,11 @@ not population detection guarantees or benchmark-wide repair-effectiveness estim
 Original observed RUNs, source history, independent authorizations and billing identities
 are omitted. Full model/evaluator replay and independent original-archive re-admission
 are not certified. The package's frozen manuscript preserves preparation-time local
-candidate/DOI-pending annotations. Subsequent public verification and the exact archived
-version DOI will be recorded in Release notes and PUBLIC_VERIFICATION.json after checking.
+candidate/DOI-pending annotations. The exact v1.43 DOI is https://doi.org/10.5281/zenodo.23226778.
+Anonymous downloads, Zenodo inner assets and a new same-host locked virtualenv
+reproduction passed. PUBLIC_VERIFICATION.json records their bindings.
+The immutable archived tag retains the earlier preparation metadata; these
+verification facts are a later main-branch documentation update.
 
 The series DOI is https://doi.org/10.5281/zenodo.23205936. The prior v1.40 DOI
 https://doi.org/10.5281/zenodo.23213922 identifies v1.40 only. Neither identifies the

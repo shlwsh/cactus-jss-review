@@ -1,6 +1,67 @@
 {
+  "generated_at": "2026-10-08T01:49:41Z",
+  "status": "PASS",
+  "public_access_verified": true,
   "version": "1.43",
-  "status": "awaiting publication and public-download verification",
-  "generated_at": "2026-10-08T01:44:56Z",
-  "role": "Preparation state, not a public verification claim"
+  "version_doi": "10.5281/zenodo.23226778",
+  "concept_doi": "10.5281/zenodo.23205936",
+  "release_url": "https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-review-v1.43",
+  "frozen_tag_commit": "380b7886b3bf5c683f2ed8bcf81fc6f3d6503d2e",
+  "bindings": {
+    "manuscript_pdf": {
+      "path": "pdf/CACTUS_JSS_v1.43_20261008-011509.pdf",
+      "sha256": "03fcd1a7061e71661ac1ca7219ee84e6cd99672ba2567ea5c119a945af935f25"
+    },
+    "review_zip": {
+      "path": "docs/jss/v1.0_20261008-014319_v143公开发行与论文链接修订证据/public_downloads/cactus-jss-review-v1.43-20261008T010442Z.zip",
+      "sha256": "6d3e31c3a4b35f79e95e543e0d8c447be4aab8d9538ab23499ea3c7e4fed0b36"
+    }
+  },
+  "fresh_environment": {
+    "status": "PASS",
+    "scope": "publicly downloaded release; fresh virtualenv on the same Windows host; offline locked wheels",
+    "logs": [
+      {
+        "path": "docs/jss/v1.0_20261008-014319_v143公开发行与论文链接修订证据/public_freshenv_install.log",
+        "sha256": "4133c6e35b3c328f817c7d6b35c0ecd4ce00098064e6b0820a1094ce44b7a4a9"
+      },
+      {
+        "path": "docs/jss/v1.0_20261008-014319_v143公开发行与论文链接修订证据/public_freshenv_reproduce.log",
+        "sha256": "dced13c4cef26dd1d4d601b37a0145b6ed7deaa7c2c955728b62a6c90272b7b8"
+      }
+    ],
+    "result": {
+      "path": "docs/jss/v1.0_20261008-014319_v143公开发行与论文链接修订证据/public_reproduction_result.json",
+      "sha256": "c0a748444dfd4e7f7e284fb24d1c02520c27a5ea93ebb493297408effe0a6cbd"
+    }
+  },
+  "zenodo": {
+    "status": "PASS",
+    "record_id": 23226778,
+    "archive": {
+      "url": "https://zenodo.org/api/records/23226778/files/shlwsh/cactus-jss-review-cactus-jss-review-v1.43.zip/content",
+      "status": 200,
+      "authentication": "none",
+      "retrieved_at": "2026-10-08T01:48:24Z",
+      "path": "docs/jss/v1.0_20261008-014319_v143公开发行与论文链接修订证据/zenodo_v143_archive_20261008T014746Z.zip",
+      "bytes": 29859300,
+      "sha256": "8988995a8d63d865ee268299aa8440bfb7bfbc9d02a73b70e5b9d4b4fa42c412"
+    },
+    "inner_assets": [
+      {
+        "name": "shlwsh-cactus-jss-review-380b788/cactus-jss-review-v1.43-20261008T010442Z.zip",
+        "sha256": "6d3e31c3a4b35f79e95e543e0d8c447be4aab8d9538ab23499ea3c7e4fed0b36"
+      },
+      {
+        "name": "shlwsh-cactus-jss-review-380b788/CACTUS_JSS_v1.43_20261008-011509.pdf",
+        "sha256": "03fcd1a7061e71661ac1ca7219ee84e6cd99672ba2567ea5c119a945af935f25"
+      },
+      {
+        "name": "shlwsh-cactus-jss-review-380b788/jss-flat-upload-v1.43-20261008T010442Z.zip",
+        "sha256": "a5a9f9e5b867236b1b458fbf1a0a3461e3c6e5b5db06b4c05d6b3293dd0021f0"
+      }
+    ]
+  },
+  "scope": "Immutable v1.43 downloads and reproduction; does not bind the subsequent v1.44 manuscript or certify original RUN replay",
+  "submission_ready": false
 }
