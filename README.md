@@ -1,32 +1,21 @@
-# CACTUS JSS revised manuscript release v1.45
+# CACTUS JSS Review Artifact Release v1.51
 
-This release freezes the corrected manuscript PDF, independently compiled flat
-source ZIP, and submission attachments. The [v1.45 Release](https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-manuscript-v1.45) and
-RELEASE_ASSETS.json identify the exact files. Author approval of the actual final
-source and PDF is still recorded separately; public release is not journal submission.
+This release publishes the **v1.51** Plan A review artifact, the 22-page JSS manuscript PDF, and the independently compiled flat LaTeX submission source bundle for:
 
-Research artifact v1.43 is a separately versioned dependency, archived at
-https://doi.org/10.5281/zenodo.23226778. Its ZIP is retained byte-for-byte here
-for access. It regenerates its own baseline, synthetic production-core checks,
-and fixed scientific values. The revised source ZIP compiles the enclosed v1.45
-PDF. Do not treat the v1.43 DOI as the v1.45 manuscript version identifier.
+> **CACTUS: Auditable Evidence Admission for Repository-Level Software Engineering Agent Benchmarks**  
+> Shi Honglei, Zhao Juanjuan (Taiyuan University of Technology)
 
-Funding and AI clarification is recorded in FUNDING_CORRECTION.md. Research
-expenses were covered by Taiyuan University of Technology internal project
-resources, with no third-party funding or grant identifier. The university had
-no role in study design, analysis, or the submission decision. Figures were
-code-rendered; ChatGPT, OpenAI Codex, and Cursor AI-assisted features are disclosed.
+## Included v1.51 Assets
 
-All scientific values, denominators, latency observations, and statistical
-results are unchanged. Original RUN replay, independent original-archive
-re-admission, and external artifact evaluation are not certified. Whole
-historical archive integrity remains FAIL. Public access does not assert anonymity.
+- `cactus-jss-review-v1.51-20261122-023925Z.zip` — Self-contained Tier-1 offline review artifact (`reproduce_review_artifact.py all` verified exit code 0 in a clean Linux directory).
+- `CACTUS_JSS_v1.51_20261122-023925.pdf` — 22-page JSS submission manuscript PDF.
+- `jss-flat-upload-v1.51-20261122T023925Z.zip` — Flattened LaTeX upload bundle (verified isolated `pdflatex -> bibtex -> pdflatex x2` build).
 
-The series DOI is https://doi.org/10.5281/zenodo.23205936. The exact v1.45 manuscript archive DOI is https://doi.org/10.5281/zenodo.23227339.
-Six anonymous release downloads, four Zenodo inner primary assets, fresh-virtualenv
-research-artifact reproduction, and current-source compilation passed.
-PUBLIC_VERIFICATION.json records exact file bindings and separate reproduction scopes.
-The archived tag retains preparation-time metadata; this main-branch update records
-subsequent verification without changing frozen files.
-CACTUS-origin material retains CC BY 4.0; third parties retain their own notices.
-Third-party cited full-text PDFs are omitted. No new model/evaluator experiment ran.
+See `RELEASE_ASSETS.json` and `SHA256SUMS` for complete 64-character SHA-256 digests.
+
+## Scope and Prior Archives
+
+- **Series (Concept) DOI**: `https://doi.org/10.5281/zenodo.23205936`
+- **Prior pre-restructuring public archives**: `v1.43` (`10.5281/zenodo.23226778`) and `v1.45` (`10.5281/zenodo.23227339`).
+- **Tier-1 reproduction scope**: Supports offline single-source value ledger regeneration, synthetic production-core admission regression, table and figure regeneration, citation binding verification, and manuscript PDF compilation. Original 71-RUN re-admission and full model/evaluator replay are not certified.
+- **License**: CACTUS-origin material is licensed under CC BY 4.0; third-party files retain their original notices. Third-party cited full-text PDFs and external benchmark prediction logs are omitted.
