@@ -1,16 +1,13 @@
 cff-version: 1.2.0
-message: "If you use this review artifact, please cite both the exact version DOI minted by Zenodo for this release and the accompanying JSS manuscript."
-title: "CACTUS: Auditable Evidence Admission for Repository-Level Software Engineering Agent Benchmarks — Review Artifact v1.51"
-version: "1.51"
-date-released: "2026-11-22"
-url: "https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-jss-review-v1.51"
+message: "Please cite the exact archived version when released."
+title: "CACTUS: Auditable Evidence Admission for Repository-Level Software Engineering Agent Benchmarks — IST Review Artifact v1.52"
+version: "1.52"
+url: "https://github.com/shlwsh/cactus-jss-review/releases/tag/cactus-ist-review-v1.52"
+# Artifact series concept DOI: 10.5281/zenodo.23205936
 license: CC-BY-4.0
 authors:
   - family-names: Shi
     given-names: Honglei
     orcid: "https://orcid.org/0009-0009-7640-0303"
-    affiliation: "Taiyuan University of Technology"
   - family-names: Zhao
     given-names: Juanjuan
-    affiliation: "Taiyuan University of Technology"
-doi: "10.5281/zenodo.23205936"
